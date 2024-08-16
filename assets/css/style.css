@@ -23,6 +23,7 @@ body{
     object-position: center;
     object-fit: cover;
     background: url(/assets/images/banner.png), linear-gradient(rgba(0, 0, 0 ), rgba(6, 128, 180, 0.9), rgba(0, 0, 0 ));
+    background-repeat: no-repeat;
     border-bottom: 1px solid #33A8DB80;
 }
 .logo img{
