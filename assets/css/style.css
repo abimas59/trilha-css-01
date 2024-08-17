@@ -1,8 +1,7 @@
 @import url(reset.css);
 
-
 body{
-    background-image: url(/assets/images/woman-code.png);
+    background-image: url(../images/woman-code.png);
     background-position: left;
     object-fit: cover;
     background-attachment: fixed;
@@ -11,7 +10,6 @@ body{
     background-blend-mode: darken; 
 }
 .banner{
-    
     height: 420px;
     margin: 0 auto;
     padding: 90px ;
@@ -20,7 +18,7 @@ body{
     align-items: center;
     object-position: center;
     object-fit: cover;
-    background: url(/assets/images/banner.png), linear-gradient(rgba(0, 0, 0 ), rgba(6, 128, 180, 0.9), rgba(0, 0, 0 ));
+    background: url(../images/banner.png), linear-gradient(rgba(0, 0, 0 ), rgba(6, 128, 180, 0.9), rgba(0, 0, 0 ));
     background-repeat: no-repeat;
     border-bottom: 1px solid #33A8DB80;
 }
